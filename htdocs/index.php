@@ -1,3 +1,3 @@
 <?php
-echo "<h1>HELLO</h1>";
+echo "<h1>HELLO HEROKU</h1>";
 phpinfo();
