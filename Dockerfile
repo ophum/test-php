@@ -1,4 +1,8 @@
-FROM httpd
+FROM php
 
-COPY ./ /usr/local/apache2/htdocs/
+COPY ./ /app
+
+WORKDIR /app
+
+ENTRYPOINT ["php", "-S", "0.0.0.0:80"]
 
